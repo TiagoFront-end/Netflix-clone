@@ -1,0 +1,146 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+    --font: #aaaa;
+}
+
+body {
+    width: 100%;
+    background: var(--preta);
+    font-family: 'arial', Times, serif;
+    color: #fff;
+  
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header .container {
+
+} */
+
+header .logo {
+    color: var(--vermelho);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+header nav a {
+    text-decoration: none;
+    color: var(--font);
+    margin-right:30px;
+
+}
+
+header nav a:hover {
+   color: #fff;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background:url(img/projeto.jpg);
+     
+    height: 1400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 25px;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-top:1200px;
+    width: 600px;
+    margin-left:28px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#fff;
+}
+.botao {
+ 
+    color:#464646;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+     transition: 2s ease-in;
+}
+
+ a  {
+    text-decoration: none;
+   
+}
+
+a:hover{
+    color: #e50914;
+    transition: 2s;
+  
+
+
+}
+.botao:hover{
+    background-color:#464646;
+    color: #fff;
+   
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+.box-filme img {
+    height: 100%;
+    display: block;
+
+}
+
+.owl-carousel {
+    margin-top: 3px;
+}
+
+
+.box-filme:hover{
+    margin-top: -20px;
+      cursor: pointer;
+      opacity: .5;
+      transition: ease-in-out 5s;
+  
+}
+
+  .video     {
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+}
+
+
+.lancamentos {
+    border: none;
+}
+

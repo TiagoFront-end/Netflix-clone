@@ -1,0 +1,43 @@
+@media screen and (max-width: 852px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .botao {
+        margin-top: 8px;
+        width: 200px;
+    }
+
+    .titulo {
+    position: relative;
+    top:-188px;
+     color: blue;
+    }
+    .botao {
+        position: relative;
+        top:-110px;
+    }
+    .filme-principal {
+        width: 800px;
+    }
+
+    .owl-carousel .box-image {
+        width: 1000px;
+    }
+}
+
+@media screen  and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
+@media screen  and (max-width: 468px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
